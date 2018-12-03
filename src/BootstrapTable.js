@@ -75,7 +75,7 @@ class BootstrapTable extends Component {
           return;
         }
 
-        return column.props.dataField
+        return column.props.dataField;
       });
       React.Children.forEach(this.props.children, column => {
         if (column === null || column === undefined) {
